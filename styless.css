@@ -1,0 +1,82 @@
+/*Selector{
+    Property: value;}
+    */
+    body{
+        background-image: url(back.jpg);
+        background-size: cover;
+        font-family: 'inter', san-serif;    
+    }
+    h1{
+        color: #66FCF1 /*#45A29E, #1F2833, #C5C6C7*/
+    }
+    p{
+        color: white;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Change the number (3) to the desired number of columns */
+        gap: 20px; /* Adjust the gap between images */
+      }
+      
+      .grid-container a {
+        text-decoration: none; /* Remove underline from links */
+      }
+      
+      .grid-container img {
+        width: 100%; /* Make images fill the grid cell */
+        height: auto; /* Maintain aspect ratio */
+      }
+      /* Style the form container */
+/* Style the form container */
+.modern-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form labels */
+.modern-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style form inputs and textarea */
+.modern-form input[type="text"],
+.modern-form input[type="email"],
+.modern-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+/* Change input border color on focus */
+.modern-form input[type="text"]:focus,
+.modern-form input[type="email"]:focus,
+.modern-form textarea:focus {
+  border-color: #66afe9;
+}
+
+/* Style the submit button */
+.modern-form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+.modern-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
